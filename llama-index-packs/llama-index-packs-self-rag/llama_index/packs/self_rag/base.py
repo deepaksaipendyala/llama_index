@@ -235,7 +235,7 @@ class SelfRAGQueryEngine(CustomQueryEngine):
             source_nodes.append(
                 NodeWithScore(
                     node=TextNode(text=paragraph, id_=str(p_idx)),
-                    score=isRel_score,
+                    score=isRel_score,`
                 )
             )
 
