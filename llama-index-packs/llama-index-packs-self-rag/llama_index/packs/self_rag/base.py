@@ -4,8 +4,8 @@ import numpy as np
 
 from llama_index.core.response import Response
 from llama_index.core.llama_pack.base import BaseLlamaPack
-from llama_index.core.bridge.pydantic import Field
-from llama_index.core.query_engine import CustomQueryEngine
+from pydantic import Field
+from llama_index.core.query_engine.custom import CustomQueryEngine
 from llama_index.core.base.base_retriever import BaseRetriever
 from llama_index.core.schema import NodeWithScore, TextNode
 from llama_index.core.utils import print_text
